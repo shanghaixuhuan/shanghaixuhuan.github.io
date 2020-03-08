@@ -1,0 +1,29 @@
+{
+"dataCloud":[
+  {"name": "Python","value": "100"},
+  {"name": "PyQt5","value": "90"},
+  {"name": "Neo4j","value": "80"},
+  {"name": "神经网络","value": "75"},
+  {"name": "GCN","value": "70"},
+  {"name": "MySql","value": "65"},
+  {"name": "SQLite","value": "65"},
+  {"name": "CNN","value": "65"},
+  {"name": "数据库原理","value": "55"},
+  {"name": "机器学习","value": "55"},
+  {"name": "C/C++","value": "55"},
+  {"name": "操作系统","value": "50"},
+  {"name": "算法和数据结构","value": "45"},
+  {"name": "office","value": "40"},
+  {"name": "网络爬虫","value": "35"},
+  {"name": "知识图谱","value": "30"},
+  {"name": "JAVA","value": "30"},
+  {"name": "mongoDB","value": "30"},
+  {"name": "计算机网络","value": "30"},
+  {"name": "photoshop","value": "25"},
+  {"name": "HTML5","value": "25"},
+  {"name": "Linux","value": "20"},
+  {"name": "TensorFlow","value": "20"},
+  {"name": "CSS","value": "20"},
+  {"name": "Xmind","value": "15"}
+]
+}
