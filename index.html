@@ -628,16 +628,16 @@
             data:[],
           }]
         });
-		var timer = null;
-		window.addEventListener("resize", function () {
-			if (timer) {
-        clearTimeout(timer);
-    }
-    timer = setTimeout(function () {
+
+var resizeTimer = null;
+$(window).bind('resize', function () {
+    if (resizeTimer) clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
         myChart.resize();
-    }, 1000)
-			
-    });
+    }, 300);
+});
+
+	
 
         // 异步加载数据
         $.get('./cloud.json').done(function (data) {
