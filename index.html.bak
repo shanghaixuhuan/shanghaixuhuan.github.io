@@ -629,7 +629,7 @@
           }]
         });
 		window.addEventListener("resize", function () {
-    myChart.resize();},1000);
+    myChart.resize();});
 	window.setTimeout(detectIfHappenedHandler, 1000)
         // 异步加载数据
         $.get('./cloud.json').done(function (data) {
